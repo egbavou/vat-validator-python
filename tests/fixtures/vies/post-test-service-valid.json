@@ -1,0 +1,9 @@
+{
+  "countryCode" : "BE",
+  "vatNumber" : "100",
+  "requestDate" : "2026-10-22T01:01:08.671Z",
+  "valid" : true,
+  "requestIdentifier" : "",
+  "name" : "John Doe",
+  "address" : "123 Main St, Anytown, UK"
+}

@@ -1,0 +1,14 @@
+{
+  "countryCode" : "ES",
+  "vatNumber" : "A28015865",
+  "requestDate" : "2026-10-22T01:09:32.321Z",
+  "valid" : true,
+  "requestIdentifier" : "",
+  "name" : "---",
+  "address" : "---",
+  "traderNameMatch" : "NOT_PROCESSED",
+  "traderStreetMatch" : "NOT_PROCESSED",
+  "traderPostalCodeMatch" : "NOT_PROCESSED",
+  "traderCityMatch" : "NOT_PROCESSED",
+  "traderCompanyTypeMatch" : "NOT_PROCESSED"
+}

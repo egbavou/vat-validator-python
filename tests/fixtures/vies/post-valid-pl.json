@@ -1,0 +1,19 @@
+{
+  "countryCode" : "PL",
+  "vatNumber" : "5250007738",
+  "requestDate" : "2026-10-22T01:10:47.723Z",
+  "valid" : true,
+  "requestIdentifier" : "",
+  "name" : "POWSZECHNA KASA OSZCZĘDNOŚCI BANK POLSKI SPÓŁKA AKCYJNA",
+  "address" : "ŚWIĘTOKRZYSKA 36\n00-116 WARSZAWA",
+  "traderName" : "---",
+  "traderStreet" : "---",
+  "traderPostalCode" : "---",
+  "traderCity" : "---",
+  "traderCompanyType" : "---",
+  "traderNameMatch" : "NOT_PROCESSED",
+  "traderStreetMatch" : "NOT_PROCESSED",
+  "traderPostalCodeMatch" : "NOT_PROCESSED",
+  "traderCityMatch" : "NOT_PROCESSED",
+  "traderCompanyTypeMatch" : "NOT_PROCESSED"
+}

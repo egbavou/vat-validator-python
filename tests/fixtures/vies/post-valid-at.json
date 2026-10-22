@@ -1,0 +1,19 @@
+{
+  "countryCode" : "AT",
+  "vatNumber" : "U15361506",
+  "requestDate" : "2026-10-22T01:07:30.495Z",
+  "valid" : true,
+  "requestIdentifier" : "",
+  "name" : "Erste Group Bank AG",
+  "address" : "Am Belvedere 1\nAT-1100 Wien",
+  "traderName" : "---",
+  "traderStreet" : "---",
+  "traderPostalCode" : "---",
+  "traderCity" : "---",
+  "traderCompanyType" : "---",
+  "traderNameMatch" : "NOT_PROCESSED",
+  "traderStreetMatch" : "NOT_PROCESSED",
+  "traderPostalCodeMatch" : "NOT_PROCESSED",
+  "traderCityMatch" : "NOT_PROCESSED",
+  "traderCompanyTypeMatch" : "NOT_PROCESSED"
+}

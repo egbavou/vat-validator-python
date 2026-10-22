@@ -1,0 +1,19 @@
+{
+  "countryCode" : "LT",
+  "vatNumber" : "230335113",
+  "requestDate" : "2026-10-22T01:10:35.703Z",
+  "valid" : true,
+  "requestIdentifier" : "",
+  "name" : "MAXIMA LT, UAB",
+  "address" : "N/A",
+  "traderName" : "---",
+  "traderStreet" : "---",
+  "traderPostalCode" : "---",
+  "traderCity" : "---",
+  "traderCompanyType" : "---",
+  "traderNameMatch" : "NOT_PROCESSED",
+  "traderStreetMatch" : "NOT_PROCESSED",
+  "traderPostalCodeMatch" : "NOT_PROCESSED",
+  "traderCityMatch" : "NOT_PROCESSED",
+  "traderCompanyTypeMatch" : "NOT_PROCESSED"
+}

@@ -1,0 +1,19 @@
+{
+  "countryCode" : "CZ",
+  "vatNumber" : "00177041",
+  "requestDate" : "2026-10-22T01:08:10.474Z",
+  "valid" : true,
+  "requestIdentifier" : "",
+  "name" : "Škoda Auto a.s.",
+  "address" : "tř. Václava Klementa 869\nMLADÁ BOLESLAV II\n293 01  MLADÁ BOLESLAV 1",
+  "traderName" : "---",
+  "traderStreet" : "---",
+  "traderPostalCode" : "---",
+  "traderCity" : "---",
+  "traderCompanyType" : "---",
+  "traderNameMatch" : "NOT_PROCESSED",
+  "traderStreetMatch" : "NOT_PROCESSED",
+  "traderPostalCodeMatch" : "NOT_PROCESSED",
+  "traderCityMatch" : "NOT_PROCESSED",
+  "traderCompanyTypeMatch" : "NOT_PROCESSED"
+}

@@ -1,0 +1,19 @@
+{
+  "countryCode" : "XI",
+  "vatNumber" : "220430231",
+  "requestDate" : "2026-10-22T01:11:10.751Z",
+  "valid" : true,
+  "requestIdentifier" : "",
+  "name" : "TESCO PLC",
+  "address" : "CIRRUS A SHIRE PARK KESTREL WAY WELWYN GARDEN CITY   AL7 1GA",
+  "traderName" : "---",
+  "traderStreet" : "---",
+  "traderPostalCode" : "---",
+  "traderCity" : "---",
+  "traderCompanyType" : "---",
+  "traderNameMatch" : "NOT_PROCESSED",
+  "traderStreetMatch" : "NOT_PROCESSED",
+  "traderPostalCodeMatch" : "NOT_PROCESSED",
+  "traderCityMatch" : "NOT_PROCESSED",
+  "traderCompanyTypeMatch" : "NOT_PROCESSED"
+}

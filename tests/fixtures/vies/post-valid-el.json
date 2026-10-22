@@ -1,0 +1,19 @@
+{
+  "countryCode" : "EL",
+  "vatNumber" : "094019245",
+  "requestDate" : "2026-10-22T01:09:28.800Z",
+  "valid" : true,
+  "requestIdentifier" : "",
+  "name" : "ΟΡΓΑΝΙΣΜΟΣ ΤΗΛΕΠΙΚΟΙΝΩΝΙΩΝ ΤΗΣ ΕΛΛΑΔΟΣ ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ||ΟΤΕ",
+  "address" : "ΛΕΩΦΟΡΟΣ ΚΗΦΙΣΙΑΣ 99        15124 - ΜΑΡΟΥΣΙ",
+  "traderName" : "---",
+  "traderStreet" : "---",
+  "traderPostalCode" : "---",
+  "traderCity" : "---",
+  "traderCompanyType" : "---",
+  "traderNameMatch" : "NOT_PROCESSED",
+  "traderStreetMatch" : "NOT_PROCESSED",
+  "traderPostalCodeMatch" : "NOT_PROCESSED",
+  "traderCityMatch" : "NOT_PROCESSED",
+  "traderCompanyTypeMatch" : "NOT_PROCESSED"
+}

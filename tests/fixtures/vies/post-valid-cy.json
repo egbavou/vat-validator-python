@@ -1,0 +1,19 @@
+{
+  "countryCode" : "CY",
+  "vatNumber" : "10137520E",
+  "requestDate" : "2026-10-22T01:15:26.584Z",
+  "valid" : true,
+  "requestIdentifier" : "",
+  "name" : "CABLENET COMMUNICATION SYSTEMS PLC",
+  "address" : "ΑΓΙΟΥ ΝΙΚΟΛΑΟΥ 41 NIMELI, BLOCK A\n2408 ΕΓΚΩΜΗ ΛΕΥΚΩΣΙΑΣ",
+  "traderName" : "---",
+  "traderStreet" : "---",
+  "traderPostalCode" : "---",
+  "traderCity" : "---",
+  "traderCompanyType" : "---",
+  "traderNameMatch" : "NOT_PROCESSED",
+  "traderStreetMatch" : "NOT_PROCESSED",
+  "traderPostalCodeMatch" : "NOT_PROCESSED",
+  "traderCityMatch" : "NOT_PROCESSED",
+  "traderCompanyTypeMatch" : "NOT_PROCESSED"
+}

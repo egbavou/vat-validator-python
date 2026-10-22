@@ -1,0 +1,19 @@
+{
+  "countryCode" : "MT",
+  "vatNumber" : "12826209",
+  "requestDate" : "2026-10-22T01:12:47.452Z",
+  "valid" : true,
+  "requestIdentifier" : "",
+  "name" : "GO p.l.c",
+  "address" : "\nGo plc\nTriq\nHal Tarxien\nZTN3000\nZejtun",
+  "traderName" : "---",
+  "traderStreet" : "---",
+  "traderPostalCode" : "---",
+  "traderCity" : "---",
+  "traderCompanyType" : "---",
+  "traderNameMatch" : "NOT_PROCESSED",
+  "traderStreetMatch" : "NOT_PROCESSED",
+  "traderPostalCodeMatch" : "NOT_PROCESSED",
+  "traderCityMatch" : "NOT_PROCESSED",
+  "traderCompanyTypeMatch" : "NOT_PROCESSED"
+}

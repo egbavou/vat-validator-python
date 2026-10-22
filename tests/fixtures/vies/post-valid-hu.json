@@ -1,0 +1,19 @@
+{
+  "countryCode" : "HU",
+  "vatNumber" : "10773381",
+  "requestDate" : "2026-10-22T01:10:18.990Z",
+  "valid" : true,
+  "requestIdentifier" : "",
+  "name" : "MAGYAR TELEKOM TÁVKÖZLÉSI NYILVÁNOSAN MŰKÖDŐ RÉSZVÉNYTÁRSASÁG",
+  "address" : "KONYVES KALMAN KÖRÚT 36 1097 BUDAPEST",
+  "traderName" : "---",
+  "traderStreet" : "---",
+  "traderPostalCode" : "---",
+  "traderCity" : "---",
+  "traderCompanyType" : "---",
+  "traderNameMatch" : "NOT_PROCESSED",
+  "traderStreetMatch" : "NOT_PROCESSED",
+  "traderPostalCodeMatch" : "NOT_PROCESSED",
+  "traderCityMatch" : "NOT_PROCESSED",
+  "traderCompanyTypeMatch" : "NOT_PROCESSED"
+}

@@ -1,0 +1,19 @@
+{
+  "countryCode" : "SE",
+  "vatNumber" : "556012579001",
+  "requestDate" : "2026-10-22T01:11:00.196Z",
+  "valid" : true,
+  "requestIdentifier" : "",
+  "name" : "Aktiebolaget Volvo",
+  "address" : "DC 24000 \nARSC2 \n405 08 GÖTEBORG",
+  "traderName" : "---",
+  "traderStreet" : "---",
+  "traderPostalCode" : "---",
+  "traderCity" : "---",
+  "traderCompanyType" : "---",
+  "traderNameMatch" : "NOT_PROCESSED",
+  "traderStreetMatch" : "NOT_PROCESSED",
+  "traderPostalCodeMatch" : "NOT_PROCESSED",
+  "traderCityMatch" : "NOT_PROCESSED",
+  "traderCompanyTypeMatch" : "NOT_PROCESSED"
+}

@@ -1,0 +1,7 @@
+{
+  "actionSucceed" : false,
+  "errorWrappers" : [ {
+    "error" : "VOW-ERR-1",
+    "message" : "An unexpected error occurred. Please retry later or contact the support team."
+  } ]
+}

@@ -1,0 +1,19 @@
+{
+  "countryCode" : "SK",
+  "vatNumber" : "2020273893",
+  "requestDate" : "2026-10-22T01:11:09.237Z",
+  "valid" : true,
+  "requestIdentifier" : "",
+  "name" : "Slovak Telekom, a.s.",
+  "address" : "Bajkalská 28\n81762 Bratislava - mestská časť Ružinov\nSlovensko",
+  "traderName" : "---",
+  "traderStreet" : "---",
+  "traderPostalCode" : "---",
+  "traderCity" : "---",
+  "traderCompanyType" : "---",
+  "traderNameMatch" : "NOT_PROCESSED",
+  "traderStreetMatch" : "NOT_PROCESSED",
+  "traderPostalCodeMatch" : "NOT_PROCESSED",
+  "traderCityMatch" : "NOT_PROCESSED",
+  "traderCompanyTypeMatch" : "NOT_PROCESSED"
+}

@@ -1,0 +1,19 @@
+{
+  "countryCode" : "IE",
+  "vatNumber" : "8F52100V",
+  "requestDate" : "2026-10-22T01:17:32.385Z",
+  "valid" : true,
+  "requestIdentifier" : "",
+  "name" : "ELECTRICITY SUPPLY BOARD",
+  "address" : "27 FITZWILLIAM STREET LOWER, DUBLIN 2",
+  "traderName" : "---",
+  "traderStreet" : "---",
+  "traderPostalCode" : "---",
+  "traderCity" : "---",
+  "traderCompanyType" : "---",
+  "traderNameMatch" : "NOT_PROCESSED",
+  "traderStreetMatch" : "NOT_PROCESSED",
+  "traderPostalCodeMatch" : "NOT_PROCESSED",
+  "traderCityMatch" : "NOT_PROCESSED",
+  "traderCompanyTypeMatch" : "NOT_PROCESSED"
+}

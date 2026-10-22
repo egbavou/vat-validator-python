@@ -1,0 +1,19 @@
+{
+  "countryCode" : "BG",
+  "vatNumber" : "812114069",
+  "requestDate" : "2026-10-22T01:07:49.433Z",
+  "valid" : true,
+  "requestIdentifier" : "",
+  "name" : "ЛУКОЙЛ Нефтохим Бургас - АД",
+  "address" : "гр. Бургас , Бургас обл.БУРГАС, гр.БУРГАС 8104",
+  "traderName" : "---",
+  "traderStreet" : "---",
+  "traderPostalCode" : "---",
+  "traderCity" : "---",
+  "traderCompanyType" : "---",
+  "traderNameMatch" : "NOT_PROCESSED",
+  "traderStreetMatch" : "NOT_PROCESSED",
+  "traderPostalCodeMatch" : "NOT_PROCESSED",
+  "traderCityMatch" : "NOT_PROCESSED",
+  "traderCompanyTypeMatch" : "NOT_PROCESSED"
+}

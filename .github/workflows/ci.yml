@@ -1,0 +1,148 @@
+name: CI
+
+on: [push, pull_request]
+
+permissions:
+  contents: read
+
+env:
+  VAT_NUMBER_VALIDATOR_LIVE: "0"
+
+jobs:
+  core:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.11", "3.12", "3.13", "3.14", "3.15"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: ${{ matrix.python }}
+      - run: uv sync --no-default-groups --group test
+      - run: uv pip list
+      - run: uv run --no-sync pytest tests/core
+
+  httpx:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.11", "3.12", "3.13", "3.14", "3.15"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: ${{ matrix.python }}
+      - run: uv sync --extra httpx --no-default-groups --group test
+      - run: uv pip list
+      - run: uv run --no-sync pytest tests/core tests/httpx_integration
+
+  django:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - {python: "3.11", django: "5.2"}
+          - {python: "3.14", django: "5.2"}
+          - {python: "3.12", django: "6.0"}
+          - {python: "3.14", django: "6.0"}
+          - {python: "3.12", django: "6.1"}
+          - {python: "3.14", django: "6.1"}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: ${{ matrix.python }}
+      - run: uv sync --extra django --extra httpx --no-default-groups --group test
+      - run: uv pip install "Django~=${{ matrix.django }}.0"
+      - run: uv pip list
+      - run: uv run --no-sync pytest tests/core tests/httpx_integration tests/django_integration
+
+  pydantic:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.11", "3.12", "3.13", "3.14", "3.15"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: ${{ matrix.python }}
+      - run: uv sync --extra pydantic --no-default-groups --group test
+      - run: uv pip list
+      - run: uv run --no-sync pytest tests/core tests/pydantic_integration
+
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.14"
+      - run: uv sync --all-extras
+      - run: uv pip list
+      - run: uv run --no-sync ruff check
+      - run: uv run --no-sync ruff format --check
+      - run: uv run --no-sync mypy --strict
+      - run: uv build --sdist
+      - run: uv build dist/*.tar.gz --wheel
+      - name: Inspect wheel contents
+        run: |
+          uv run --no-sync python - <<'PY'
+          from pathlib import Path
+          from zipfile import ZipFile
+          wheel, = Path("dist").glob("*.whl")
+          with ZipFile(wheel) as archive:
+              names = set(archive.namelist())
+          for required in (
+              "vat_number_validator/py.typed",
+              "vat_number_validator/django/locale/fr/LC_MESSAGES/django.po",
+              "vat_number_validator/django/locale/fr/LC_MESSAGES/django.mo",
+          ):
+              assert required in names, required
+          PY
+      - name: Install wheel outside repository and verify catalogue
+        run: |
+          wheel=$(realpath dist/*.whl)
+          smoke=$(mktemp -d)
+          uv venv "$smoke/venv"
+          uv pip install --python "$smoke/venv/bin/python" "$wheel[django]"
+          cd "$smoke"
+          "$smoke/venv/bin/python" -I - <<'PY'
+          import sys
+          import vat_number_validator
+          from vat_number_validator import VatNumber
+          assert VatNumber("fr27552032534").value == "FR27552032534"
+          assert not any(name in sys.modules for name in ("httpx", "django", "pydantic"))
+          from django.conf import settings
+          settings.configure(INSTALLED_APPS=["vat_number_validator.django"], USE_I18N=True,
+                             LANGUAGE_CODE="en", SECRET_KEY="wheel-smoke")
+          import django
+          django.setup()
+          from django.core.exceptions import ValidationError
+          from django.utils.translation import override
+          from vat_number_validator.django.validators import VatNumberValidator
+          with override("fr"):
+              try:
+                  VatNumberValidator()("FR123")
+              except ValidationError as error:
+                  assert error.code == "invalid_length"
+                  assert str(error.message) != "This field does not have the length of a VAT number for this country."
+              else:
+                  raise AssertionError("Invalid input unexpectedly passed")
+          PY
+
+  lowest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.11"
+      - run: uv sync --resolution lowest-direct --all-extras --no-default-groups --group test
+      - run: uv pip list
+      - run: uv run --no-sync pytest

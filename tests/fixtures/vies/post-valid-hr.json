@@ -1,0 +1,19 @@
+{
+  "countryCode" : "HR",
+  "vatNumber" : "81793146560",
+  "requestDate" : "2026-10-22T01:10:12.718Z",
+  "valid" : true,
+  "requestIdentifier" : "",
+  "name" : "Hrvatski Telekom d.d.",
+  "address" : "RADNIČKA CESTA 21, ZAGREB, 10000 Zagreb",
+  "traderName" : "---",
+  "traderStreet" : "---",
+  "traderPostalCode" : "---",
+  "traderCity" : "---",
+  "traderCompanyType" : "---",
+  "traderNameMatch" : "NOT_PROCESSED",
+  "traderStreetMatch" : "NOT_PROCESSED",
+  "traderPostalCodeMatch" : "NOT_PROCESSED",
+  "traderCityMatch" : "NOT_PROCESSED",
+  "traderCompanyTypeMatch" : "NOT_PROCESSED"
+}

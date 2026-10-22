@@ -1,0 +1,19 @@
+{
+  "countryCode" : "CZ",
+  "vatNumber" : "699004742",
+  "requestDate" : "2026-10-22T01:17:07.053Z",
+  "valid" : true,
+  "requestIdentifier" : "",
+  "name" : "Group registration - This VAT ID corresponds to a Group of Taxpayers",
+  "address" : "See http://adisreg.mfcr.cz/cgi-bin/adis/idph/int_dp_prij.cgi?ZPRAC=FDPHI2&poc_dic=1",
+  "traderName" : "---",
+  "traderStreet" : "---",
+  "traderPostalCode" : "---",
+  "traderCity" : "---",
+  "traderCompanyType" : "---",
+  "traderNameMatch" : "NOT_PROCESSED",
+  "traderStreetMatch" : "NOT_PROCESSED",
+  "traderPostalCodeMatch" : "NOT_PROCESSED",
+  "traderCityMatch" : "NOT_PROCESSED",
+  "traderCompanyTypeMatch" : "NOT_PROCESSED"
+}

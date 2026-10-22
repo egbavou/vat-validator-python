@@ -1,0 +1,19 @@
+{
+  "countryCode" : "FR",
+  "vatNumber" : "27552032534",
+  "requestDate" : "2026-10-22T01:10:04.061Z",
+  "valid" : true,
+  "requestIdentifier" : "",
+  "name" : "SA DANONE",
+  "address" : "59 RUE LA FAYETTE\n75009 PARIS",
+  "traderName" : "---",
+  "traderStreet" : "---",
+  "traderPostalCode" : "---",
+  "traderCity" : "---",
+  "traderCompanyType" : "---",
+  "traderNameMatch" : "NOT_PROCESSED",
+  "traderStreetMatch" : "NOT_PROCESSED",
+  "traderPostalCodeMatch" : "NOT_PROCESSED",
+  "traderCityMatch" : "NOT_PROCESSED",
+  "traderCompanyTypeMatch" : "NOT_PROCESSED"
+}

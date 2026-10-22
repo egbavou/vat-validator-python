@@ -1,0 +1,22 @@
+{
+  "isValid" : true,
+  "requestDate" : "2026-10-22T01:18:15.720Z",
+  "userError" : "VALID",
+  "name" : "NOVO NORDISK A/S",
+  "address" : "Novo Alle 1\n2880 Bagsværd\n",
+  "requestIdentifier" : "WAPIAAAAaFhL8vxr",
+  "originalVatNumber" : "24256790",
+  "vatNumber" : "24256790",
+  "viesApproximate" : {
+    "name" : "---",
+    "street" : "---",
+    "postalCode" : "---",
+    "city" : "---",
+    "companyType" : "---",
+    "matchName" : 3,
+    "matchStreet" : 3,
+    "matchPostalCode" : 3,
+    "matchCity" : 3,
+    "matchCompanyType" : 3
+  }
+}

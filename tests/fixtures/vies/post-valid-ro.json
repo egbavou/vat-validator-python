@@ -1,0 +1,19 @@
+{
+  "countryCode" : "RO",
+  "vatNumber" : "1590082",
+  "requestDate" : "2026-10-22T01:10:56.295Z",
+  "valid" : true,
+  "requestIdentifier" : "",
+  "name" : "OMV PETROM SA",
+  "address" : "MUNICIPIUL  BUCUREŞTI, SECTOR 1 13329 STR. CORALILOR Nr. 22 Bl. PETROM CITY",
+  "traderName" : "---",
+  "traderStreet" : "---",
+  "traderPostalCode" : "---",
+  "traderCity" : "---",
+  "traderCompanyType" : "---",
+  "traderNameMatch" : "NOT_PROCESSED",
+  "traderStreetMatch" : "NOT_PROCESSED",
+  "traderPostalCodeMatch" : "NOT_PROCESSED",
+  "traderCityMatch" : "NOT_PROCESSED",
+  "traderCompanyTypeMatch" : "NOT_PROCESSED"
+}

@@ -1,0 +1,19 @@
+{
+  "countryCode" : "LV",
+  "vatNumber" : "40003032949",
+  "requestDate" : "2026-10-22T01:10:39.500Z",
+  "valid" : true,
+  "requestIdentifier" : "",
+  "name" : "Akciju sabiedrība \"Latvenergo\"",
+  "address" : "Pulkveža Brieža iela 12, Rīga, LV-1010",
+  "traderName" : "---",
+  "traderStreet" : "---",
+  "traderPostalCode" : "---",
+  "traderCity" : "---",
+  "traderCompanyType" : "---",
+  "traderNameMatch" : "NOT_PROCESSED",
+  "traderStreetMatch" : "NOT_PROCESSED",
+  "traderPostalCodeMatch" : "NOT_PROCESSED",
+  "traderCityMatch" : "NOT_PROCESSED",
+  "traderCompanyTypeMatch" : "NOT_PROCESSED"
+}

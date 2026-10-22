@@ -1,0 +1,19 @@
+{
+  "countryCode" : "EE",
+  "vatNumber" : "100070008",
+  "requestDate" : "2026-10-22T01:12:45.099Z",
+  "valid" : true,
+  "requestIdentifier" : "",
+  "name" : "Telia Eesti AS",
+  "address" : "Mustamäe tee 3   15033 Kristiine linnaosa Tallinn",
+  "traderName" : "---",
+  "traderStreet" : "---",
+  "traderPostalCode" : "---",
+  "traderCity" : "---",
+  "traderCompanyType" : "---",
+  "traderNameMatch" : "NOT_PROCESSED",
+  "traderStreetMatch" : "NOT_PROCESSED",
+  "traderPostalCodeMatch" : "NOT_PROCESSED",
+  "traderCityMatch" : "NOT_PROCESSED",
+  "traderCompanyTypeMatch" : "NOT_PROCESSED"
+}

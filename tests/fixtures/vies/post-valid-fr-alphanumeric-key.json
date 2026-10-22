@@ -1,0 +1,19 @@
+{
+  "countryCode" : "FR",
+  "vatNumber" : "0W314684960",
+  "requestDate" : "2026-10-22T01:17:14.522Z",
+  "valid" : true,
+  "requestIdentifier" : "",
+  "name" : "SEM STE D'ECONOMIE MIXTE DES TRANSPORTS",
+  "address" : "3 RUE BELLIER\n44000 NANTES",
+  "traderName" : "---",
+  "traderStreet" : "---",
+  "traderPostalCode" : "---",
+  "traderCity" : "---",
+  "traderCompanyType" : "---",
+  "traderNameMatch" : "NOT_PROCESSED",
+  "traderStreetMatch" : "NOT_PROCESSED",
+  "traderPostalCodeMatch" : "NOT_PROCESSED",
+  "traderCityMatch" : "NOT_PROCESSED",
+  "traderCompanyTypeMatch" : "NOT_PROCESSED"
+}

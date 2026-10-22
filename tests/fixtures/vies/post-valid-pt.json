@@ -1,0 +1,19 @@
+{
+  "countryCode" : "PT",
+  "vatNumber" : "500697256",
+  "requestDate" : "2026-10-22T01:10:48.944Z",
+  "valid" : true,
+  "requestIdentifier" : "",
+  "name" : "EDP, S.A.",
+  "address" : "AV 24 DE JULHO N 12\nLISBOA\n1249-300 LISBOA",
+  "traderName" : "---",
+  "traderStreet" : "---",
+  "traderPostalCode" : "---",
+  "traderCity" : "---",
+  "traderCompanyType" : "---",
+  "traderNameMatch" : "NOT_PROCESSED",
+  "traderStreetMatch" : "NOT_PROCESSED",
+  "traderPostalCodeMatch" : "NOT_PROCESSED",
+  "traderCityMatch" : "NOT_PROCESSED",
+  "traderCompanyTypeMatch" : "NOT_PROCESSED"
+}

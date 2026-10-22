@@ -1,0 +1,19 @@
+{
+  "countryCode" : "IT",
+  "vatNumber" : "00905811006",
+  "requestDate" : "2026-10-22T01:10:31.933Z",
+  "valid" : true,
+  "requestIdentifier" : "",
+  "name" : "ENI SPA",
+  "address" : "PIAZZALE ENRICO MATTEI 1 \n00144 ROMA RM\n",
+  "traderName" : "---",
+  "traderStreet" : "---",
+  "traderPostalCode" : "---",
+  "traderCity" : "---",
+  "traderCompanyType" : "---",
+  "traderNameMatch" : "NOT_PROCESSED",
+  "traderStreetMatch" : "NOT_PROCESSED",
+  "traderPostalCodeMatch" : "NOT_PROCESSED",
+  "traderCityMatch" : "NOT_PROCESSED",
+  "traderCompanyTypeMatch" : "NOT_PROCESSED"
+}

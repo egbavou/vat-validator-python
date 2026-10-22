@@ -1,0 +1,19 @@
+{
+  "countryCode" : "FI",
+  "vatNumber" : "01120389",
+  "requestDate" : "2026-10-22T01:09:37.299Z",
+  "valid" : true,
+  "requestIdentifier" : "",
+  "name" : "Nokia Oyj",
+  "address" : "c/oVero-osasto PL 226\n00045 NOKIA GROUP",
+  "traderName" : "---",
+  "traderStreet" : "---",
+  "traderPostalCode" : "---",
+  "traderCity" : "---",
+  "traderCompanyType" : "---",
+  "traderNameMatch" : "NOT_PROCESSED",
+  "traderStreetMatch" : "NOT_PROCESSED",
+  "traderPostalCodeMatch" : "NOT_PROCESSED",
+  "traderCityMatch" : "NOT_PROCESSED",
+  "traderCompanyTypeMatch" : "NOT_PROCESSED"
+}

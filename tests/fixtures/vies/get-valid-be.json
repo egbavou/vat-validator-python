@@ -1,0 +1,22 @@
+{
+  "isValid" : true,
+  "requestDate" : "2026-10-22T01:00:42.701Z",
+  "userError" : "VALID",
+  "name" : "NV Anheuser-Busch InBev",
+  "address" : "Grote Markt 1\n1000 Brussel",
+  "requestIdentifier" : "",
+  "originalVatNumber" : "0417497106",
+  "vatNumber" : "0417497106",
+  "viesApproximate" : {
+    "name" : "---",
+    "street" : "---",
+    "postalCode" : "---",
+    "city" : "---",
+    "companyType" : "---",
+    "matchName" : 3,
+    "matchStreet" : 3,
+    "matchPostalCode" : 3,
+    "matchCity" : 3,
+    "matchCompanyType" : 3
+  }
+}

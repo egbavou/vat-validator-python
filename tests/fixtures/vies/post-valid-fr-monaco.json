@@ -1,0 +1,19 @@
+{
+  "countryCode" : "FR",
+  "vatNumber" : "73000042183",
+  "requestDate" : "2026-10-22T01:28:25.045Z",
+  "valid" : true,
+  "requestIdentifier" : "",
+  "name" : "SAM MONACO TELECOM S.A.M.",
+  "address" : "004 AVENUE ALBERT II\n98000 MONACO (PTE DE MONACO)",
+  "traderName" : "---",
+  "traderStreet" : "---",
+  "traderPostalCode" : "---",
+  "traderCity" : "---",
+  "traderCompanyType" : "---",
+  "traderNameMatch" : "NOT_PROCESSED",
+  "traderStreetMatch" : "NOT_PROCESSED",
+  "traderPostalCodeMatch" : "NOT_PROCESSED",
+  "traderCityMatch" : "NOT_PROCESSED",
+  "traderCompanyTypeMatch" : "NOT_PROCESSED"
+}

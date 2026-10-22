@@ -1,0 +1,7 @@
+{
+  "actionSucceed" : false,
+  "errorWrappers" : [ {
+    "error" : "VOW-ERR-2500",
+    "message" : "The requester member state code is invalid."
+  } ]
+}

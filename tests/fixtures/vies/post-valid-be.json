@@ -1,0 +1,19 @@
+{
+  "countryCode" : "BE",
+  "vatNumber" : "0417497106",
+  "requestDate" : "2026-10-22T01:00:38.289Z",
+  "valid" : true,
+  "requestIdentifier" : "",
+  "name" : "NV Anheuser-Busch InBev",
+  "address" : "Grote Markt 1\n1000 Brussel",
+  "traderName" : "---",
+  "traderStreet" : "---",
+  "traderPostalCode" : "---",
+  "traderCity" : "---",
+  "traderCompanyType" : "---",
+  "traderNameMatch" : "NOT_PROCESSED",
+  "traderStreetMatch" : "NOT_PROCESSED",
+  "traderPostalCodeMatch" : "NOT_PROCESSED",
+  "traderCityMatch" : "NOT_PROCESSED",
+  "traderCompanyTypeMatch" : "NOT_PROCESSED"
+}

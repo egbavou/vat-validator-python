@@ -1,0 +1,19 @@
+{
+  "countryCode" : "DK",
+  "vatNumber" : "24256790",
+  "requestDate" : "2026-10-22T01:08:38.468Z",
+  "valid" : true,
+  "requestIdentifier" : "",
+  "name" : "NOVO NORDISK A/S",
+  "address" : "Novo Alle 1\n2880 Bagsværd\n",
+  "traderName" : "---",
+  "traderStreet" : "---",
+  "traderPostalCode" : "---",
+  "traderCity" : "---",
+  "traderCompanyType" : "---",
+  "traderNameMatch" : "NOT_PROCESSED",
+  "traderStreetMatch" : "NOT_PROCESSED",
+  "traderPostalCodeMatch" : "NOT_PROCESSED",
+  "traderCityMatch" : "NOT_PROCESSED",
+  "traderCompanyTypeMatch" : "NOT_PROCESSED"
+}

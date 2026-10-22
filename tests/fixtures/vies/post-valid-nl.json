@@ -1,0 +1,19 @@
+{
+  "countryCode" : "NL",
+  "vatNumber" : "805734958B01",
+  "requestDate" : "2026-10-22T01:10:41.674Z",
+  "valid" : true,
+  "requestIdentifier" : "",
+  "name" : "BOOKING.COM B.V.",
+  "address" : "\nOOSTERDOKSKADE 00163\n1011DL AMSTERDAM\n",
+  "traderName" : "---",
+  "traderStreet" : "---",
+  "traderPostalCode" : "---",
+  "traderCity" : "---",
+  "traderCompanyType" : "---",
+  "traderNameMatch" : "NOT_PROCESSED",
+  "traderStreetMatch" : "NOT_PROCESSED",
+  "traderPostalCodeMatch" : "NOT_PROCESSED",
+  "traderCityMatch" : "NOT_PROCESSED",
+  "traderCompanyTypeMatch" : "NOT_PROCESSED"
+}

@@ -1,0 +1,19 @@
+{
+  "countryCode" : "SI",
+  "vatNumber" : "82646716",
+  "requestDate" : "2026-10-22T01:11:05.842Z",
+  "valid" : true,
+  "requestIdentifier" : "",
+  "name" : "KRKA, D.D., NOVO MESTO",
+  "address" : "ŠMARJEŠKA CESTA 6, 8501 NOVO MESTO",
+  "traderName" : "---",
+  "traderStreet" : "---",
+  "traderPostalCode" : "---",
+  "traderCity" : "---",
+  "traderCompanyType" : "---",
+  "traderNameMatch" : "NOT_PROCESSED",
+  "traderStreetMatch" : "NOT_PROCESSED",
+  "traderPostalCodeMatch" : "NOT_PROCESSED",
+  "traderCityMatch" : "NOT_PROCESSED",
+  "traderCompanyTypeMatch" : "NOT_PROCESSED"
+}

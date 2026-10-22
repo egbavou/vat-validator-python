@@ -1,0 +1,35 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: vat-number-validator 0.1.0\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "This field contains characters that are not allowed in a VAT number."
+msgstr "Ce champ contient des caractères interdits dans un numéro de TVA."
+
+msgid "This field does not have the length of a VAT number for this country."
+msgstr "Ce champ n'a pas la longueur d'un numéro de TVA de ce pays."
+
+msgid "This field is not a valid VAT number (wrong check digits)."
+msgstr "Ce champ n'est pas un numéro de TVA valide (clé de contrôle incorrecte)."
+
+msgid "This field does not have the structure of a VAT number for this country."
+msgstr "Ce champ n'a pas la structure d'un numéro de TVA de ce pays."
+
+msgid "This field starts with an unknown country prefix."
+msgstr "Ce champ commence par un code pays inconnu."
+
+msgid "This field must start with a country prefix, such as FR or DE."
+msgstr "Ce champ doit commencer par un code pays, comme FR ou DE."
+
+msgid "This field does not belong to the selected country."
+msgstr "Ce champ ne correspond pas au pays sélectionné."
+
+msgid "This VAT number is not registered in VIES."
+msgstr "Ce numéro de TVA n'est pas enregistré dans VIES."
+
+msgid "This VAT number cannot be verified right now. Please try again later."
+msgstr "Ce numéro de TVA ne peut pas être vérifié pour le moment. Réessayez plus tard."
