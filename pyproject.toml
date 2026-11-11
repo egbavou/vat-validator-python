@@ -28,6 +28,12 @@ classifiers = [
     "Natural Language :: French",
 ]
 
+[project.urls]
+Homepage = "https://github.com/egbavou/vat-validator-python"
+Repository = "https://github.com/egbavou/vat-validator-python"
+Issues = "https://github.com/egbavou/vat-validator-python/issues"
+Funding = "https://github.com/sponsors/egbavou"
+
 [project.optional-dependencies]
 httpx = ["httpx>=0.27"]
 django = ["Django>=5.2"]
